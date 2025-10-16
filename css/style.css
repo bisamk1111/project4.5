@@ -135,63 +135,6 @@ video {
 	right: 10px;
 }
 
-	
-	
-
-.resume table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 1.5rem;
-  background-color: black;      
-  color: white;                 
-}
-
-.resume th,
-.resume td {
-  border: 1px solid white;      
-  padding: 0.75rem;
-  text-align: left;
-}
-
-.resume th {
-  font-weight: bold;
-  background-color: #1a1a1a;    
-}
-.resume{
-	background-image:url('../images/groundpic.jpg');
-	background-size:cover;
-	background-position:center;
-}
-.resume h1{
-	color:#5c5eff;
-}
-.resume{
-	max-width: 60rem;
-	margin: 0 auto;
-	padding: 1.5rem;
-	font-size: 1rem;
-}
-.resume .sidebyside{
-	display: flex;
-	gap: 2rem;
-}
-.resume .sidebyside .contact h3{
-	color: #1e90ff;
-	font-style:italic;
-	
-}
-.resume .sidebyside .profile h3{
-	color: #ff1c88;
-	font-style:italic;
-}
-.resume h3{
-	font-size:1.5rem;
-	font-weight:800;
-}
-.resume h4{
-	font-size:1.3rem;
-	font-weight:600;
-}
 .hobbies .winter{
 	color:#006eaa;
 	font-weight: 900;
@@ -279,7 +222,7 @@ video {
     overflow-y: auto;
   }
 }
-.blog {
+.resume {
 	background-image:url('../images/groundpic.jpg');
 	background-size:cover;
 	background-position:center;
