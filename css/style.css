@@ -50,6 +50,39 @@ video {
   margin-bottom: 1.5rem;      
   border-radius: 0.5rem;
 }
+.home .spooky{
+	text-align: center;
+	position: relative;
+	width:60%;
+	margin: 0 auto;
+}
+.home .riseandshine{
+	position: relative;
+	top: -20px;
+}
+.home .middleone img{
+	float: right;
+	width: 50%;
+	margin-left: 1rem;
+}
+.home .middleone p{
+	float: left;
+	width: 45%
+}
+.home .middletwo img {
+	float: left;
+	width: 50%;
+	margin-right: 1rem;
+}
+.home .middletwo p{
+	float: right;
+	width: 45%;
+}
+.home .end{
+	text-align:center;
+	position: relative;
+	top: 10px;
+}
 .home h1{
 	font-size:2rem;
 	font-weight:1000
