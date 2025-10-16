@@ -69,17 +69,27 @@ video {
 	float: left;
 	width: 45%
 }
+.home .middletwo .image-text-wrapper{
+	position: relative;
+	display: incline-block;
+}
 .home .middletwo img {
 	float: left;
 	width: 50%;
 	margin-right: 1rem;
 }
-.home .middletwo p{
-	float: right;
-	width: 45%;
-	position: relative;
-	top: 5rem;
+.home .middletwo .overlay-text {
+  position: absolute;
+  top: 0;          /* move down if you want padding from top */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;      /* optional, for text wrapping */
+  color: white;    /* or any visible color */
+  background: rgba(0,0,0,0.3); /* optional overlay */
+  padding: 0.5rem;
+  text-align: center;
 }
+
 .home .end{
 	text-align:center;
 	position: relative;
