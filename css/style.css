@@ -1,0 +1,193 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #ffffff;  
+  color: black;
+  line-height: 1.5;
+  padding: 2rem;                
+}
+
+/* 2) Centered horizontal navigation (identical on every page) */
+nav {
+  background-color: #3c3c3c;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+nav ul {
+  list-style: none;            
+  display: flex;
+  justify-content: center;     
+  gap: 1rem;                
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: white;
+  text-decoration:none;
+  font-style:italic;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+}
+
+img,
+video {
+  width: 500px;                              
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;          
+  margin-bottom: 1.5rem;      
+  border-radius: 0.5rem;
+}
+.home h1{
+	font-size:2rem;
+	font-weight:1000
+}
+.home h2{
+	font-size: 1.5rem;
+	font-weight:900;
+	color:#5c5eff;
+	font-family:'Dancing Script';
+}
+.home .highlight{
+	color:#ff1c88;
+	font-weight:800;
+	font-style:italic;
+}
+.home .slideshow-container{
+	position: relative;
+	max-width: 600px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 12px;
+}
+.home .slides{
+	width: 100%;
+	display: none;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.home .prev, .home .next{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: 70px;
+	height: 40px;
+	margin-top: -20px;
+	color: red;
+	border: none;
+	border-radius: 50%;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	user-select: none;
+}
+.home .prev{
+	left: 10px;
+}
+.home .next{
+	right: 10px;
+}
+
+	
+	
+
+.resume table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  background-color: black;      
+  color: white;                 
+}
+
+.resume th,
+.resume td {
+  border: 1px solid white;      
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.resume th {
+  font-weight: bold;
+  background-color: #1a1a1a;    
+}
+.resume{
+	background-image:url('../images/groundpic.jpg');
+	background-size:cover;
+	background-position:center;
+}
+.resume h1{
+	color:#5c5eff;
+}
+.resume{
+	max-width: 60rem;
+	margin: 0 auto;
+	padding: 1.5rem;
+	font-size: 1rem;
+}
+.resume .sidebyside{
+	display: flex;
+	gap: 2rem;
+}
+.resume .sidebyside .contact h3{
+	color: #1e90ff;
+	font-style:italic;
+	
+}
+.resume .sidebyside .profile h3{
+	color: #ff1c88;
+	font-style:italic;
+}
+.resume h3{
+	font-size:1.5rem;
+	font-weight:800;
+}
+.resume h4{
+	font-size:1.3rem;
+	font-weight:600;
+}
+.hobbies .winter{
+	color:#006eaa;
+	font-weight: 900;
+	font-size: 1.4rem;
+}
+.vid{
+	width:50%;
+	height:40%;
+	max-width:400px;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+.hobbies .summer{
+	color:#77ba62;
+	font-weight:300;
+	font-size: 1.4rem;
+}
+.hobbies .fall{
+	color:#e84319;
+	font-weight:700;
+	font-size: 1.4rem;
+}
+.hobbies .spring{
+    color:#ff91a2;
+	font-weight:500;
+	font-size: 1.4rem;
+}
+.hobbies .allyear{
+	color:#4c4968;
+	font-size: 1.4rem;
+}
+.map h1{
+	font-style: italic;
+	color: blue;
+}
+	
