@@ -225,12 +225,12 @@ video {
 }
 
 .portfolio-resume-scrolling-container {
-  height: 400px;
+  height: 800px;
   border: 1px solid #cacaca;
 }
 
 .portfolio-resume-overview {
-  height: 400px;
+  height: 800px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -247,7 +247,7 @@ video {
 
 .portfolio-resume-overview:after {
   content: "";
-  width: 100%;
+  width: 800%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -275,5 +275,11 @@ video {
     overflow-y: auto;
   }
 }
+.blog {
+	background-image:url('../images/groundpic.jpg');
+	background-size:cover;
+	background-position:center;
+}
+	
 
 
