@@ -234,13 +234,6 @@ video {
 	background-size:cover;
 	background-position:center;
 }
-.resume-title{
-	position: absolute;
-	top: 40px;
-	left: 50%;
-	font-family: 'Dancing Script', cursive;
-	color: blue;
-	z-index: 1;
-}
+
 
 	
