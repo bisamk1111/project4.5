@@ -77,6 +77,8 @@ video {
 .home .middletwo p{
 	float: right;
 	width: 45%;
+	position: relative;
+	top: 2rem;
 }
 .home .end{
 	text-align:center;
@@ -89,7 +91,7 @@ video {
 	font-weight:1000
 }
 .home h2{
-	font-size: 1.1rem;
+	font-size: 1.5rem;
 	font-weight:900;
 	color:#5c5eff;
 	font-family:'Dancing Script';
