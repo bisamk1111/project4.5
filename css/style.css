@@ -175,6 +175,12 @@ video {
   background-color: rgba(255, 255, 255, 0.9);
   border: 1px solid #cacaca;
 }
+.portfolio-resume-scrolling-container h3 {
+  color:6d52d8;
+  font-weight: 800;
+}
+	
+
 
 .portfolio-resume-overview {
   height: 80%;
@@ -227,3 +233,13 @@ video {
 	background-size:cover;
 	background-position:center;
 }
+.resume-title{
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	font-family: 'Dancing Script', cursive;
+	color: blue;
+	z-index: 1;
+}
+
+	
