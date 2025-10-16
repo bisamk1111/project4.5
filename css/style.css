@@ -69,18 +69,16 @@ video {
 	float: left;
 	width: 45%
 }
-.home .middletwo{
-	overflow: hidden;
-}
 .home .middletwo img {
 	float: left;
 	width: 50%;
 	margin-right: 1rem;
 }
 .home .middletwo p{
-	float: left;
+	float: right;
 	width: 45%;
-	top: 1rem;
+	position: relative;
+	top: 5rem;
 }
 .home .end{
 	text-align:center;
