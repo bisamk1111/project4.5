@@ -231,7 +231,7 @@ video {
 }
 
 .portfolio-resume-overview {
-  height: 800px;
+  height: 100%;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -272,7 +272,7 @@ video {
 
 @media print, screen and (min-width: 40em) {
   .portfolio-resume-scrolling {
-    height: 400px;
+    height: 100%;
     overflow-y: auto;
   }
 }
